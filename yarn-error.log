@@ -1,0 +1,63 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @tanstack-query
+
+PATH: 
+  /bin:/usr/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@tanstack-query: Request "https://registry.yarnpkg.com/@tanstack-query" returned a 405
+      at params.callback (/usr/local/lib/node_modules/yarn/dist/yarn.js:56525:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/dist/yarn.js:124819:22)
+      at EventEmitter.emit (node:events:42:9202)
+      at Request.eval (/usr/local/lib/node_modules/yarn/dist/yarn.js:125791:10)
+      at EventEmitter.emit (node:events:42:9202)
+      at IncomingMessage.eval (/usr/local/lib/node_modules/yarn/dist/yarn.js:125713:12)
+      at Object.onceWrapper (node:events:42:10429)
+      at EventEmitter.emit (node:events:42:9318)
+      at endReadableNT (node:internal/streams/readable:105:15152)
+      at _0x528c63 (https://learnreactqueryreact-g2tp.w-credentialless-staticblitz.com/blitz.7dbe22a9.js:352:153924)
+
+npm manifest: 
+  {
+    "name": "vite-react-typescript-starter",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.74",
+      "@types/react-dom": "^18.2.24",
+      "@typescript-eslint/eslint-plugin": "^7.5.0",
+      "@typescript-eslint/parser": "^7.5.0",
+      "@vitejs/plugin-react": "^4.2.1",
+      "eslint": "^8.57.0",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.6",
+      "typescript": "^5.2.2",
+      "vite": "^5.2.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
